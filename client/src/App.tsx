@@ -195,7 +195,7 @@ function App() {
                 )
               }
             </div>
-            {data.length > 0 && <DataTable columns={columns} data={data} />}
+            {data && data.length > 0 && <DataTable columns={columns} data={data} />}
           </div>
         </Split>
       )}
