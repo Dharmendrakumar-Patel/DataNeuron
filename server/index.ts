@@ -23,7 +23,7 @@ app.get('/', async (req, res) => {
     res.status(200).send("<h1>Welcome To DataNeuron Backend.</h1>")
 })
 
-app.use('/api/v1/product', product)
+app.use('/product', product)
 
 app.listen(port, () => {
     console.log('Server is running on port : ' + port);
