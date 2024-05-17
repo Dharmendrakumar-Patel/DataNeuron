@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .h-body {
+        height: calc(100vh - 72px);
+    }
+}
