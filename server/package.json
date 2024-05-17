@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm run build && node dist/index.js",
     "dev": "nodemon index.ts",
-    "build": "tsc && node copy-files.js"
+    "build": "npx tsc"
   },
   "author": "",
   "license": "ISC",
